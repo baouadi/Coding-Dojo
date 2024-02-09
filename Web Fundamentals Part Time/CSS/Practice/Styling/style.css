@@ -1,0 +1,29 @@
+span {
+	color: cyan;
+}
+
+h1 {
+	background-color: black;
+	color:white;
+	text-align:left;
+	font-style: math italic;
+	font-size: 80px;
+	padding: 0px;
+	margin: 10px;
+}
+h2 {
+	background-color: purple;
+	color:white;
+	text-align:center;
+	font-style: italic;
+	font-size: 30px;
+	margin: 10px;
+}
+h3 {
+	background-color: #5F9EA0;
+	color:black;
+	text-align:right;
+	text-decoration: underline;
+	font-size: 20px;
+	margin: 10px;
+}
