@@ -1,0 +1,30 @@
+
+
+.button1 {
+    background-color: white;
+    color: rgb(33, 227, 221);
+    border: 2px solid rgb(33, 227, 221);;
+    border-radius: 35%;
+    display: block;
+    font-size: 30px;
+    margin: 50px 20px 20px 100px;
+}
+
+.button2 {
+    border-radius: 50%;
+    background-color: rgb(106, 227, 128);
+    border-color: rgb(106, 227, 128);
+    color: white;
+    display: block;
+    font-size: 20px;
+    margin: 20px 20px 20px 100px;
+}
+
+.button3 {
+    background-color: rgb(48, 139, 230);
+    color: white;
+    box-shadow: 10px 5px 5px black;
+    display: block;
+    font-size: 30px;
+    margin: 20px 20px 20px 100px;
+}
