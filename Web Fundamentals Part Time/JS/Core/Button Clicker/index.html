@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Recursive:wght,CRSV@300..1000,1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Clicker</title>
+</head>
+
+<body>
+    <div class="top">
+        <div class="top_bar">
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="Search" class="sch">
+            <button class="btn" onclick="changeButtonText()">Login</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="left_bar">
+            <div class="definition-box">
+                <div>
+                    <div class="term">ninja</div>
+                    <div class="category">noun<br>Plural: ninjas</div>
+                    <div class="likes">
+                        <button class="like-button" onclick="like">13 likes</button>
+                    </div>
+                </div>
+                <div class="definition">A practitioner skilled in the <br>
+                    <a class="link" href="#">Japanese</a> art of
+                    <a class="link" href="#">ninjutsu</a>
+                </div>
+            </div>
+            <div class="definition-box2">
+                <div>
+                    <div class="term">ninja</div>
+                    <div class="category">noun<br>Plural: ninjas</div>
+                    <div class="likes">
+                        <button class="like-button" onclick="like">37 likes</button>
+                    </div>
+                </div>
+                <div class="definition">A <a class="link" href="#">programmer</a> who breaks<br>
+                    down problems with <a class="link" href="#">zen</a>-like <br>
+                    focus
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right-bar">
+                <div>
+                    Dojonary is <br>
+                    defined by You
+                </div>
+                <button class="hide-btn" onclick="removeBox()">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
