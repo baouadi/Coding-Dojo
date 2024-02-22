@@ -1,0 +1,37 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.post {
+    border: 2px solid black;
+    padding: 10px;
+    width: 300px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.username {
+    font-weight: bold;
+}
+
+
+.like-button {
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 5px 10px;
+    box-shadow: 4px 2px black;
+}
+
+.post-content {
+    margin-top: 10px;
+} 
