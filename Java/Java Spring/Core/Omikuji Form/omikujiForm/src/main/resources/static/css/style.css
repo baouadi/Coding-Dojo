@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #999;
+    padding: 20px;
+    width: 80%;
+    max-width: 300px;
+}
+
+.button {
+    background-color: #597eaa;
+    border: 2px solid black;
+    padding: 5px 10px;
+    box-shadow: 4px 2px black;
+    float: right;
+}
+
+h1 {
+	text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
