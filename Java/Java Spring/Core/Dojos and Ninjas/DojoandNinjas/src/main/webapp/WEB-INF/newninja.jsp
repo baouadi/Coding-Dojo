@@ -17,7 +17,7 @@
 <body style="margin:10vw;">
 <div class="container">
 <form:form action="/ninja/new" method="post" modelAttribute="ninja" class="mt-3">
-			<form:select path="dojo">
+			<form:select path="dojo"  class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
 				<c:forEach var="dojo" items="${dojos}">
 					<option value="${dojo.id}">${dojo.name}</option>
 				</c:forEach>
