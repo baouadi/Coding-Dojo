@@ -48,7 +48,7 @@
             </thead>
             <tbody>
             <c:forEach var="ninja" items="${ninjas}">
-                <tr data-dojo-id="${ninja.id}"> <!-- Here we use ninja.id directly -->
+                <tr data-dojo-id="${ninja.id}"> 
                     <td>${ninja.firstname}</td>
                     <td>${ninja.lastname}</td>
                     <td>${ninja.age}</td>
